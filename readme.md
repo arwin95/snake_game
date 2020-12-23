@@ -6,7 +6,7 @@
 - **END:** When the 🐍 hits the ***wall*** game *ends*, OR if the 🐍 bites himself.
 - **WIN:** When the 🐍 eats 10 🔸 you *win*.
 
-# **Tech Stack:**
+# Tech Stack
 
 `HTML + CSS + JS`
 
@@ -53,7 +53,6 @@
     - 🐍
     - 🍎 Food
 
-# Warp Animation:
+# Warp Animation
 
 ![GitHub Logo](./images/warp.jpg)
-Format: ![Alt Text](url)

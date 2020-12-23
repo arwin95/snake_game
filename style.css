@@ -1,0 +1,42 @@
+* {
+    color: white;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-family: 'JetBrains Mono', monospace;
+}
+
+body {
+    background-color: black;
+}
+
+canvas {
+    /* background-image: url('../img/stone.png'); */
+    /* background-repeat: repeat; */
+    background-color: #222;
+    width: 50%;
+    height: 50%;
+  }
+
+
+#title {
+    color: white;
+    font-size: 100px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    text-align: center;
+} /* SNAKE TITLE */
+
+#score {
+    color: white;
+    font-size: 50px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    text-align: center;
+} /* SNAKE TITLE */
+
+#container {
+    align-items: center;
+}
