@@ -1,42 +1,102 @@
 * {
-    color: white;
-    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
-    font-family: 'JetBrains Mono', monospace;
+  color: white;
+  font-family: 'JetBrains Mono', monospace;
 }
-
-body {
+html,body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    /* padding-top: 1em; */
+    text-align: center;
     background-color: black;
-}
-
-canvas {
+    /* background-image: url('../img/dungeonhell.png'); */
+    background-size: cover;
+    background-repeat: space;
+  }
+  
+  canvas {
     /* background-image: url('../img/stone.png'); */
     /* background-repeat: repeat; */
-    background-color: #222;
-    width: 50%;
-    height: 50%;
+    background-color: #757575;
+    /* opacity: 40%; */
+    /* width: 40vw;
+    height: 50vh; */
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    position: relative !important;
+    /* border: lightgrey 1px solid; */
+    /* border-radius: 5px; */
+    /* box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2); */
   }
-
-
-#title {
-    color: white;
+  
+  #container {
+  /* max-width: 50%;
+  height: 50%; */
+  width: 530px;
+  height: 500px;
+  /* background-color: rgb(111, 12, 32); */
+  margin: 0 auto;
+  /* padding: 1em; */
+  display: grid;
+  grid-gap: 1em;
+  grid-template-rows: .25fr .5fr .25fr;
+  grid-template-columns: .25fr .5fr .25fr;
+  grid-template-areas: "top-left top-left top-left"
+                        "game game game"
+                        "btm-left btm-left btm-right";
+  }
+  
+  /* #top-left, #top-right,*/ #btm-left, #btm-right { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #050505;
+  }
+  
+  #top-left {
+    grid-area: top-left;
+  }
+  
+  #top-right {
+    grid-area: top-right;
+  }
+  
+  main {
+    grid-area: game;
+  }
+  
+  
+  #btm-left {
+    grid-area: btm-left;
+    /* background-color: #222; */
+  }
+  
+  #btm-right {
+    grid-area: btm-right;
+    /* background-color: #222; */
+  }
+  
+  #score {
+    color: hotpink;
+  }
+  
+  #title {
     font-size: 100px;
     font-weight: 600;
     margin-top: 10px;
     margin-bottom: 10px;
     /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
     text-align: center;
-} /* SNAKE TITLE */
-
-#score {
-    color: white;
+  } /* SNAKE TITLE */
+  
+  #score {
     font-size: 50px;
     font-weight: 400;
     margin-top: 10px;
     margin-bottom: 10px;
     /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
     text-align: center;
-} /* SNAKE TITLE */
-
-#container {
-    align-items: center;
-}
+  } /* SCORE DISPLAY */

@@ -48,11 +48,11 @@
 # Stretch Goals
 
 - 🐍 ***SPEED?***
-- Animations (direction change warp)
+- Animations (direction change warp) (LEVEL 2 - after 10 points)
 - Characters
     - 🐍
     - 🍎 Food
 
 # Warp Animation
 
-![GitHub Logo](./images/warp.jpg)
+![space snake warp](./images/warp.jpg)

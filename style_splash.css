@@ -1,0 +1,47 @@
+* {
+    color: white;
+    font-family: 'JetBrains Mono', monospace;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+  }
+
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#card {
+    width: 500px;
+    text-align: left;
+    /* background-color: #050505; */
+    display: inline-block;
+    position: relative;
+  }
+
+  button {
+    font-family: 'JetBrains Mono', monospace;
+    color: greenyellow;
+    font-size: 30px;
+    font-weight: 800;
+    /* background-color: black; */
+    background-color: darkslateblue;
+    /* border: solid white 2px; */
+    border: 0px;
+    border-radius: 15px;
+    height: 65px;
+    width: 200px;
+  }
+
+  #btn {
+      text-align: center;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+  }
+
+  .die {
+    color: hotpink;
+  }
